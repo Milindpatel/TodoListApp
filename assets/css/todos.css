@@ -1,4 +1,5 @@
 body{
+font-family: Roboto;
 background: #076585;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -27,6 +28,25 @@ span{
     opacity: 0;
 }
 
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    background: #fff;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+}
+
+
+
+
+
+
+
 .fa-plus{
     float: right;
 }
@@ -40,22 +60,9 @@ li:hover span{
 
 
 
-ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
 
-body{
-    font-family: Roboto;
-}
 
-li{
-    background: #fff;
-    height: 40px;
-    line-height: 40px;
-    color: #666;
-}
+
 
 li:nth-child(2n){
     background: #f7f7f7;
